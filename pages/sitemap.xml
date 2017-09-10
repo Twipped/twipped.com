@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    {{#each posts}}
+    <url>
+        <loc>http://twipped.com{{this.url}}</loc>
+        <lastmod>{{date 'YYYY-MM-DDTHH:mm:ssZ' this.date}}</lastmod>
+    </url>
+    {{/each}}
+    <url>
+        <loc>http://twipped.com/about.html</loc>
+        <lastmod>2014-01-01T00:00:00Z</lastmod>
+    </url>
+    <url>
+        <loc>http://twipped.com/</loc>
+        <lastmod>2014-01-01T00:00:00Z</lastmod>
+    </url>
+</urlset>
