@@ -276,11 +276,11 @@ gulp.task('less', function () {
 
 
 
-gulp.task('watch', function() {
+gulp.task('watch', ['docs'], function() {
 	gulp.watch('./less/**/*.less', ['less']);
 	gulp.watch('./pages/**/*', ['pages']);
 	gulp.watch('./posts/**/*.md', ['posts', 'pages']);
-	gulp.watch('./templates/**/*.html', ['pages', 'posts']);
+	gulp.watch('./templates/**/*.html', ['docs']);
 	gulp.watch('./files/**/*', ['files']);
 
 	var forever = require('forever');
