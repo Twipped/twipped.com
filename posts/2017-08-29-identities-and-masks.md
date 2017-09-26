@@ -1,6 +1,5 @@
 ---
 title: "Identities and Masks: The deadnaming of Jarvis"
-draft: true
 ---
 
 Alright, so, this started as a twitter thread and then I got to 40 tweets and decided it needed to be an essay instead.

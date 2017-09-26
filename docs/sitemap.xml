@@ -1,12 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://twipped.com/p/orville</loc>
+        <lastmod>2017-09-25T00:00:00-07:00</lastmod>
+    </url>
+    <url>
         <loc>http://twipped.com/p/turning-over-a-new-leaf</loc>
         <lastmod>2017-09-21T00:00:00-07:00</lastmod>
     </url>
     <url>
         <loc>http://twipped.com/p/rage-and-grace</loc>
         <lastmod>2017-09-21T00:00:00-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://twipped.com/p/identities-and-masks</loc>
+        <lastmod>2017-08-29T00:00:00-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://twipped.com/p/memoir</loc>
+        <lastmod>2017-04-09T00:00:00-07:00</lastmod>
     </url>
     <url>
         <loc>http://twipped.com/p/twitter-isnt-made-for-us</loc>

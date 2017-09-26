@@ -106,7 +106,8 @@ function renderPage () {
 
 		var data = Object.assign({}, {
 			page: {title: file.meta.title ? file.meta.title + ' :: Twipped' : 'Twipped, Jocelyn Badgley'},
-			posts: postIndex
+			posts: postIndex,
+			pinned: postIndex.filter((p) => p.pinned)[0],
 		}, file.meta);
 
 		var html = template(data);
