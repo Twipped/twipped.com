@@ -2,7 +2,7 @@
 title: Losing my mother
 ---
 
-By and large, the vast majority of the people I have come out to have been supportive and accepting. The one huge exception has been my other mother. From the first day she made it very clear that she disapproves of my transition and refuses to acknowledge my gender identity.
+By and large, the vast majority of the people I have come out to have been supportive and accepting. The one huge exception has been my own mother. From the first day she made it very clear that she disapproves of my transition and refuses to acknowledge my gender identity.
 
 On Friday, October 27th, I had the hardest conversation I have yet had over the course of my transition. I was forced to sever my relationship with my mother.
 
