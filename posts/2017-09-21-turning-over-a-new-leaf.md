@@ -1,6 +1,5 @@
 ---
 title: Turning over a new leaf, a coming out
-pinned: true
 ---
 
 When I was 12 years old I realized something about myself, that I was different from many of the other children my age. I had feelings and desires that others couldn't relate to, a wish that could never be filled, an esoteric dream extremely out of reach.
