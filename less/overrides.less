@@ -39,11 +39,17 @@ pre code {
 blockquote {
 	background-color: #f8f8f8;
 	box-shadow: 0 1px 2px rgba(100,100,100,0.2);
+	font-size: 15px;
+	margin-bottom: 15px;
 
 	h1,h2,h3,h4 {
 		&:first-child {
 			margin-top: 0;
 		}
+	}
+
+	& + blockquote {
+		margin-top: -16px;
 	}
 }
 
@@ -156,10 +162,6 @@ header .logo {
 		margin: 0 10px;
 		float: left;
 	}
-}
-
-blockquote {
-	font-size: 15px;
 }
 
 footer {
