@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "The gulp static site generator code for twipped.com",
-  "author": "Jocelyn Badgley <joc@twipped.com> (http://twipped.com/)",
+  "author": "Jocelyn Badgley <joc@twipped.com> (https://twipped.com/)",
   "license": "CC-NC-SA",
   "scripts": {
     "build": "gulp",

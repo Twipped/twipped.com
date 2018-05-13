@@ -195,9 +195,9 @@ gulp.task('rss', ['index-posts'], function (cb) {
 
 	var feed = new RSS({
 		title: 'Twipped: Jocelyn Badgley',
-		feed_url: 'http://twipped.com/atom.xml',
-		site_url: 'http://twipped.com',
-		image_url: 'http://twipped.com/images/dexter.png',
+		feed_url: 'https://twipped.com/atom.xml',
+		site_url: 'https://twipped.com',
+		image_url: 'https://twipped.com/images/dexter.png',
 	});
 
 	postIndex.forEach(function (post) {
@@ -205,7 +205,7 @@ gulp.task('rss', ['index-posts'], function (cb) {
 			title: post.title,
 			date: post.date,
 			description: post.content,
-			url: 'http://twipped.com'+post.url
+			url: 'https://twipped.com'+post.url
 		});
 	});
 
