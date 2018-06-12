@@ -1,12 +1,12 @@
 ---
 title: "A woman lost"
-draft: true
 ---
 
 A Facebook friend who is a reverend asked for testimonials from LGBTQ members of the community that he could share to his congregation. The following is my contribution.
 
 ---
 
+```txt-wrap
 I am five years old. My mother has dressed me in a three piece suit that she made herself.
 Everyone keeps telling me how dapper I look, how handsome I am.
 I don't want to be handsome, I want to be pretty.
@@ -69,3 +69,4 @@ Old friends comment on how much more I smile now.
 
 Today I look in the mirror. I see a woman. She is beautiful.
 I am happier than I have ever been in my entire life.
+```
