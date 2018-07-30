@@ -1,6 +1,7 @@
 ---
 title: "Dropping the T(esticles)"
 description: An account of my experience with my first gender confirming surgery, an orchiectomy.
+image: /p/drop-it-like-its-hot/titlecard.jpg
 ---
 When my egg shattered (aka: when I accepted myself as trans, for you uninformed) I found myself with pretty much no dysphoria surrounding my phallus. This was, in fact, one of many reasons I had convinced myself I wasn't trans for so long, I didn't hate my junk (this changed, but I'll get to that later). What I did know almost immediately, however, was that I needed to lose the testosterone factories. I _hated_ my testicles with a mad passion, they had provided me with nothing but literal pain for my entire life (also my children, but that is not a saving grace). For, you see, I had a medical condition which had never been discovered and never was treated; a testicular torsion so severe that it pulled the entire testicle up into the inguinal canal, where it could be gradually crushed by my pelvic joints.
 
