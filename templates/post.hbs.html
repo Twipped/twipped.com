@@ -1,5 +1,13 @@
 {{#extend "layout"}}
 
+	{{#content "meta"}}
+	<meta property="og:title" content="{{this.title}}">
+	<meta property="og:description" content="{{this.description}}">
+	<meta property="og:image" content="{{this.image}}">
+	<meta property="og:url" content="{{this.url}}">
+	<meta name="twitter:card" content="summary_large_image">
+	{{/content}}
+
 	{{#content "article"}}
 		<article>
 			<div class="page-header">

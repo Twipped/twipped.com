@@ -80,6 +80,8 @@ function postContent () {
 			page: {
 				title: file.meta.title + ' :: Twipped'
 			},
+			image: '/images/twipping.png',
+			description: "The life and times of Jocelyn Badgley.",
 			posts: postIndex,
 			contents: String(file.contents)
 		}, file.meta);
