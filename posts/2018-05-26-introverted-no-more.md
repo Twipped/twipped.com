@@ -1,6 +1,5 @@
 ---
 title: "Introverted No More"
-draft: true
 ---
 I had a realization the last few days. I am not an introvert.
 

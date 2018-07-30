@@ -57,6 +57,7 @@ function postMetadata () {
 
 		file.meta.date = date;
 		file.meta.url = '/p/'+basename;
+		file.meta.fullurl = 'http://twipped.com' + file.meta.url;
 		file.meta.original = path.relative(file.cwd, file.path);
 
 		file.path = file.base + 'p/' + basename + '/index.html';
