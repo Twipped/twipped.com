@@ -2,7 +2,10 @@
 title: "Cycle Dynamics: Why Trans Women Can Have Periods"
 description: "A dive into the endocrinology of the female hormone cycle."
 draft: true
+image: /p/cycle-dynamics/titlecard.jpg
 ---
+
+![I'll make my own menstrual cycle, with bloating and depression. In fact, forget the menstruation!](/p/cycle-dynamics/hero.jpg)
 
 First lets get this out of the way... [Yes, trans women](https://theestablishment.co/yes-trans-women-can-get-period-symptoms-e43a43979e8c/) can [have periods](http://www.onwednesdays.net/trans-girl-periods/). No, [we do not menstruate](https://lifeofbria.com/tmi/), but if your definition of "period" is so narrow so as to only include a flow of blood, then you are not living in the 21st century. I'm not going to spend time justifying this, [it's been done](https://twitter.com/LifeofBria/status/1016753976211996672) better [by others](https://www.themaven.net/transgenderuniverse/articles/my-time-of-the-month-as-a-transgender-woman-s5VLSxx6Qk6Y76mGeUz_LQ/). The purpose of this post is to explain the beginnings of how and why, as I have come to understand them.
 
@@ -38,9 +41,9 @@ But here lies the rub: Trans women's estradiol and progesterone levels do not ri
 
 Without ovaries, tho, there's nothing to respond to these LH and FSH fluctuations, right?  Well... not exactly.
 
-### I'll make my own estrogen!
+### Where we're going, we don't need ovaries.
 
-![float:right](/p/cycle-dynamics/bender.png)The ovaries [are far from the only point source for estradiol](https://www.ncbi.nlm.nih.gov/m/pubmed/14623515/). Numerous organs throughout the body produce both estrogen and testosterone. The adrenal gland, [adipose fat deposits](https://www.ncbi.nlm.nih.gov/pubmed/3541569), bone marrow, muscles and even the breasts themselves all produce estrogen and progesterone through various means. Most of the hormones are used up locally within the cells they're produced in, but a portion of it can and does escape into the blood stream, and the majority of adrenal production is released directly into the blood stream.
+The ovaries [are far from the only point source for estradiol](https://www.ncbi.nlm.nih.gov/m/pubmed/14623515/). Numerous organs throughout the body produce both estrogen and testosterone. The adrenal gland, [adipose fat deposits](https://www.ncbi.nlm.nih.gov/pubmed/3541569), bone marrow, muscles and even the breasts themselves all produce estrogen and progesterone through various means. Most of the hormones are used up locally within the cells they're produced in, but a portion of it can and does escape into the blood stream, and the majority of adrenal production is released directly into the blood stream.
 
 How does this factor in to period symptoms? Well, mammary glands have been [shown to be reactive to LH levels](https://www.sciencedirect.com/science/article/pii/S0024320597000738), as does [the adrenal gland](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3459175/). As the LH levels fluctuate across a cycle, these sources respond in kind to produce, or not produce, estrogen and progesterone. The breast tissue source fits in with why these symptoms don't typically become obvious until a year or more into transition, as it requires breast development to reach a degree of critical mass. This estrogen obviously does not approach the degree of fluctuation that comes with ovaries, but it doesn't take much of a shift in estrogen levels to cause mental reactions. Every trans woman has experienced the emotional turbulence that comes with a change in dosage, or the depression that comes with either missing a dose or even being at the end of their injection cycle.
 
