@@ -52,7 +52,7 @@ How does this factor in to period symptoms? Well, mammary glands have been [show
 
 Period symptoms vary wildly in all women, cis and trans, but I have read accounts from transfeminine people describing every single common period symptom, save of course for actual menstruation. This includes:
 
-- Abdominal Cramps
+- Cramping in the lower abdomen
 - Water retention and Bloating.
 - Gas, Diarrhea and other intestinal issues ("period shits")
 - Emotional instability and irrational thoughts (heightened depression, increased dysphoria)
@@ -66,7 +66,7 @@ In women with ovaries, the endometrium layer of the uterus that forms during the
 
 Ok, so what does that have to do with people who don't have uteruses? F2a is not the only prostaglandin that causes muscle contractions. Prostaglandin E2 (PGE2) also causes muscle spasms in sufficient quantities, and is used to induce labor because of this effect. PGE2 is produced basically anywhere in the body that is under attack or has been damaged, but it is also formed in muscles, the intestines, adipose fat, and the [mammary glands](https://www.ncbi.nlm.nih.gov/pubmed/16204198). Additionally, both PGE2 and PGF2a are produced by [the thyroid and the adrenal glands](https://bpspubs.onlinelibrary.wiley.com/doi/pdf/10.1111/j.1476-5381.1967.tb02003.x). As shown above, mammary tissue and the adrenal gland have both been shown to respond to fluctuations in LH concentrations.
 
-Adrenal released prostaglandins could absolutely cause abdominal and intestinal contractions, inflammation in the abdomen from the protaglandins would induce bloating, and prostaglandin surges in mammary tissue would explain breast engorgement and sensitivity. Some may scoff at the idea that these secretions could be sufficient to produce these symptoms, but the fact is we don't know. Nobody has studied prostaglandin secretion in women who do not have ovaries. We simply do not know.
+Adrenal released prostaglandins could absolutely cause contractions in the intestines and surrounding muscles, inflammation in the abdomen from the protaglandins would induce bloating, and prostaglandin surges in mammary tissue would explain breast engorgement and sensitivity. Some may scoff at the idea that these secretions could be sufficient to produce these symptoms, but the fact is we don't know. Nobody has studied prostaglandin secretion in women who do not have ovaries. We simply do not know.
 
 ### Where's the beef?
 
