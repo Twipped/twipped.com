@@ -1,7 +1,6 @@
 ---
 title: "Cycle Dynamics: Why Trans Women Can Have Periods"
 description: "A dive into the endocrinology of the female hormone cycle."
-draft: true
 image: /p/cycle-dynamics/titlecard.jpg
 ---
 
@@ -13,7 +12,9 @@ First lets get this out of the way... [Yes, trans women](https://theestablishmen
 
 Disclaimer: I am not a doctor, but being trans necessitates a degree of understanding of human biology and endocrinology, and I made a hobby out of learning as much as I could about it.
 
-For purposes of brevity I use the terms female and male to refer to individuals whose bodies are primarily estrogenic or androgenic, respectively, regardless of if that is by organic or artificial processes. This does not refer to the particular organs a person has, and I denote organ specific conditions were appropriate.
+For purposes of brevity I use the terms women, men, female and male to refer to individuals whose bodies are primarily estrogenic or androgenic, regardless of if that is by organic or artificial processes. This does not refer to the particular organs a person has, and I denote organ specific conditions were appropriate.
+
+Additionally, the use of "Trans Women" in the title and parts of this piece is a shorthand for individuals who were assigned male at birth and are now on estrogen hormone therapy. Not all transgender women take estrogen, and not all transgender people who take estrogen are women, their identities are just as valid and I do not wish to exclude them with the wording of this essay, but in some contexts it was hard to avoid. I apologize in advance for the binary-centric nature of this post.
 
 ### An introduction into the endocrine feedback system
 
@@ -45,11 +46,11 @@ Without ovaries, tho, there's nothing to respond to these LH and FSH fluctuation
 
 The ovaries [are far from the only point source for estradiol](https://www.ncbi.nlm.nih.gov/m/pubmed/14623515/). Numerous organs throughout the body produce both estrogen and testosterone. The adrenal gland, [adipose fat deposits](https://www.ncbi.nlm.nih.gov/pubmed/3541569), bone marrow, muscles and even the breasts themselves all produce estrogen and progesterone through various means. Most of the hormones are used up locally within the cells they're produced in, but a portion of it can and does escape into the blood stream, and the majority of adrenal production is released directly into the blood stream.
 
-How does this factor in to period symptoms? Well, mammary glands have been [shown to be reactive to LH levels](https://www.sciencedirect.com/science/article/pii/S0024320597000738), as does [the adrenal gland](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3459175/). As the LH levels fluctuate across a cycle, these sources respond in kind to produce, or not produce, estrogen and progesterone. The breast tissue source fits in with why these symptoms don't typically become obvious until a year or more into transition, as it requires breast development to reach a degree of critical mass. This estrogen obviously does not approach the degree of fluctuation that comes with ovaries, but it doesn't take much of a shift in estrogen levels to cause mental reactions. Every trans woman has experienced the emotional turbulence that comes with a change in dosage, or the depression that comes with either missing a dose or even being at the end of their injection cycle.
+How does this factor in to period symptoms? Well, mammary glands have been [shown to be reactive to LH levels](https://www.sciencedirect.com/science/article/pii/S0024320597000738), as does [the adrenal gland](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3459175/). As the LH levels fluctuate across a cycle, these sources respond in kind to produce, or not produce, estrogen and progesterone. The breast tissue source fits in with why these symptoms don't typically become obvious until a year or more into transition, as it requires breast development to reach a degree of critical mass. This estrogen obviously does not approach the degree of fluctuation that comes with ovaries, but it doesn't take much of a shift in estrogen levels to cause mental reactions. Every transfem on hormone therapy has experienced the emotional turbulence that comes with a change in dosage, or the depression that comes with either missing a dose or even being at the end of their injection cycle.
 
 ### What causes period symptoms
 
-Period symptoms vary wildly in every woman, cis and trans, but I have read accounts describing every single common period symptom, save of course for actual menstruation. This includes:
+Period symptoms vary wildly in all women, cis and trans, but I have read accounts from transfeminine people describing every single common period symptom, save of course for actual menstruation. This includes:
 
 - Abdominal Cramps
 - Water retention and Bloating.
@@ -71,7 +72,7 @@ Adrenal released prostaglandins could absolutely cause abdominal and intestinal 
 
 There's a lot about all of this that we don't know. Modern trans medical care is little more than a decade old (while trans hormone therapy has been around for well over a century, WPATH in its current incarnation has only existed since 2007, and the current Standards of Care, which were a significant improvement over previous versions, came out in 2011). Prior to that, transgender care was largely ignored, or considered a fringe practice. Additionally, the trans population is _exploding_ in size right now because stigmas are reducing and awareness is climbing, people are coming out and starting hormone therapy in record numbers. Estimates of total transgender individuals have [more than doubled](https://www.nytimes.com/2016/07/01/health/transgender-population.html?_r=0) in the last 5 years. Suddenly we're learning all sorts of new things about the medical behavior of transgender individuals, but also medical science is just starting to pay attention. The medical community [hadn't even officially recognized that trans women could breastfeed](https://www.nytimes.com/2018/02/15/health/transgender-woman-breast-feed.html) until this year, which the trans community had known for decades.
 
-No one is studying trans women's periods (at least, publicly). Many existing notions for how womens bodies work are based on the assumption that estrogen and progesterone fluctuations cause these reactions. I can't find any research into responses to FSH outside of the ovaries, it's just not been studied. I couldn't even find data on LH and FSH levels in trans women, just a general expectation that it will be significantly lower than cis women because of the elevated estrogen levels.
+No one is studying trans women's periods (at least, that I could find). Many existing notions for how womens bodies work are based on the assumption that estrogen and progesterone fluctuations cause these reactions. I can't find any research into responses to FSH outside of the ovaries, it's just not been studied. I couldn't even find data on LH and FSH levels in trans women, just a general expectation that it will be significantly lower than cis women because of the elevated estrogen levels.
 
 Thus, the following is merely my conjecture on what is happening in the body, based on observations in myself and anecdotal accounts from other trans women.
 
@@ -83,13 +84,13 @@ With every single repetition of my cycle I have been able to predict my mental s
 
 - On days 1-6 I experience severe cases of gender and body dysphoria, and hightened depression. I become melancholy and my [Rejection Sensitive Dysphoria](https://www.additudemag.com/rejection-sensitive-dysphoria-how-to-treat-it-alongside-adhd/) becomes much easier to trigger. This is the time that I track as being my period, the difference in mental state is so stark that I can easilly recognize it day to day. My feminine voice will also be almost impossible to maintain on these days. I become very needy, and crave attention from my wife. My bowel movements become very sloppy (period poops), and I'll start retaining water (the bloating is fierce). I'll wait up each morning feeling very stiff, and my joints will hurt.
 - Days 7-12 I usually feel very blah. I'll have times of heightened dysmorphia where it becomes harder to see myself as feminine. My voice, again, fluctuates with that mental state.
-- Days 13-16, the ovulatory phase, have me riding high and happy. My gender euphoria goes through the roof, my body confidence is high, and all I ever see in the mirror is a woman. My movements and other behaviors become subtly more feminine (I'll notice my hips swing more when I walk, for example), and my voice feminisation is _perfect_ on these days. My libido also spikes and I find myself much more affectionate towards my wife. This has been echoed by other trans women I know as well, with others around them even commenting on how they seem really well put together and alive during this time.
+- Days 13-16, the ovulatory phase, have me riding high and happy. My gender euphoria goes through the roof, my body confidence is high, and all I ever see in the mirror is a woman. My movements and other behaviors become subtly more feminine (I'll notice my hips swing more when I walk, for example), and my voice feminisation is _perfect_ on these days. My libido also spikes and I find myself much more affectionate towards my wife. This has been echoed by other transfems I know as well, with others around them even commenting on how they seem really well put together and alive during this time.
 - Days 16-20 are simply normal; no significant behavior or mental shifts.
 - Day 21-22 will be another day of great body feels. My breasts will swell on this day, sometimes as much as 2 cup sizes, and my hips swing a little broader than usual.
 - Day 23 until the end of the cycle become increasingly tempestuous. I start to have mood swings and my emotional responses get stronger. I'll get cranky easier and find myself more susceptible to road rage, but I also feel very happy when I swing high. This lasts until day 28-31, when I'll suddenly crash into day 1 again.
 
-This pattern has now repeated four times since I identified my cycle using a period tracker application, and I strongly believe it was happening for months prior to my noticing it.
+This pattern has now repeated four times since I identified my cycle using a period tracker application, and I strongly believe it was happening for months prior to my noticing it. (Some have asked what app I use; I'm currently using [Ovia](https://www.oviahealth.com/), but it's far from ideal. I've yet to find one that is actually good for trans women).
 
 My suspicion is that medical science is totally wrong about the reception of LH and FSH in humans, especially FSH. Many of the studies into the responses of these hormones by individual parts of the body are based on observations in mice and cows, which have completely different estrous cycles from humans and massively different brain structures. Given [the way that FSH fluctuates](https://en.wikiversity.org/wiki/WikiJournal_of_Medicine/Reference_ranges_for_estradiol,_progesterone,_luteinizing_hormone_and_follicle-stimulating_hormone_during_the_menstrual_cycle) over the course of a female reproductive cycle, and how those fluctuations line up with the symptoms we experience, the correlation is just too strong to be coincidence.
 
-Unfortunately, until somebody conducts a study of LH and FSH blood levels across trans women who experience period cycles, we can never really be sure.
+Unfortunately, until somebody conducts a study of LH and FSH blood levels of male-assigned individuals on estrogen therapy who experience period cycles, we can never really be sure.
