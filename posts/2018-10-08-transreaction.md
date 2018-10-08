@@ -1,5 +1,7 @@
 ---
 title: "On cis female reactions to being labeled trans"
+description: "In which I refute the following statement"
+image: "/p/transreaction/titlecard.png"
 ---
 
 ![float:right](/p/transreaction/1.png)
@@ -12,4 +14,4 @@ Trans women internalize this too; literally every trans woman has at some point 
 
 Where am I going with this? Well, telling _any_ woman, be she cisgender or transgender, that she _looks_ trans has the implication that she appears to have masculine traits. That's literally what that statement means under patriarchal beauty standards, there is no other way to process that statement.  Women have spent their entire lives being told that masculine traits on women are ugly, that is just a factor of the world we live in. Therefor, there is no way to process that statement in a positive light, it is always going to be received as a criticism of the woman's appearance. It _does not matter_ how she views trans women, the statement is inherently baggaged by influences well outside of her own control.
 
-A commenter on the facebook post said that they've tested this on every person they know and they all failed.  If you're running a test and are getting 100% failure rate, the problem is in the test. Don't judge a woman for failing a test when she has been setup to fail. If you're asking her this question, her allyship isn't the thing being tested, its your own understanding of patriarchy and feminism. The trial is itself inherently misogynist, and should never have been posed in the first place.
+A commenter says that they've tested this on every person they know and they all failed.  If you're running a test and are getting 100% failure rate, the problem is in the test. Don't judge a woman for failing a test when she has been setup to fail. If you're asking her this question, her allyship isn't the thing being tested, its your own understanding of patriarchy and feminism. The trial is itself inherently misogynist, and should never have been posed in the first place.
