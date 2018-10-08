@@ -1,7 +1,7 @@
 ---
 title: "On cis female reactions to being labeled trans"
 description: "In which I refute the following statement"
-image: "/p/transreaction/titlecard.png"
+image: "https://twipped.com/p/transreaction/titlecard.png"
 ---
 
 ![float:right](/p/transreaction/1.png)
