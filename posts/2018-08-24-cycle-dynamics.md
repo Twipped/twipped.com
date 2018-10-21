@@ -94,3 +94,43 @@ This pattern has now repeated four times since I identified my cycle using a per
 My suspicion is that medical science is totally wrong about the reception of LH and FSH in humans, especially FSH. Many of the studies into the responses of these hormones by individual parts of the body are based on observations in mice and cows, which have completely different estrous cycles from humans and massively different brain structures. Given [the way that FSH fluctuates](https://en.wikiversity.org/wiki/WikiJournal_of_Medicine/Reference_ranges_for_estradiol,_progesterone,_luteinizing_hormone_and_follicle-stimulating_hormone_during_the_menstrual_cycle) over the course of a female reproductive cycle, and how those fluctuations line up with the symptoms we experience, the correlation is just too strong to be coincidence.
 
 Unfortunately, until somebody conducts a study of LH and FSH blood levels of male-assigned individuals on estrogen therapy who experience period cycles, we can never really be sure.
+
+### Update, October 21, 2018
+
+Today I may have found an answer for why the cycle has such an impact on mental state, in spite of even estrogen levels, and the cause of the happy phase that I experience around day 15. Several studies have found fluctuations in plasma oxytocin levels that correlated with the rise and fall of LH levels.
+
+[![Chart: Oxytocin levels relative to LH peak](/p/cycle-dynamics/oxytocin.png)](https://www.ejog.org/article/0028-2243(81)90077-0/pdf)
+
+> These results clearly demonstrate that, in spontaneously ovulating women, there is an approximate doubling of the circulating level of oxytocin associated with the time of ovulation. It is tempting to suggest that the elevated oxytocin concentrations play a part in the mechanism of ovulation.
+> [...]
+> Subsequently, LH may contribute to the further stimulation of oxytocin release since Swaab and Jongkind (1971) showed that gonadotropic hormones are capable of activating neurosecretory activity in rats.
+
+The above chart and text come from [a paper published in 1981](https://www.ejog.org/article/0028-2243(81)90077-0/pdf).
+
+[This 1991 paper](https://www.ncbi.nlm.nih.gov/pubmed/1806561) found that post-menopausal women treated with hormone therapy experienced oxytocin spikes higher than untreated pre-menopausal women.
+
+> oxytocin levels also increased and were significantly elevated when the oestradiol level exceeded 2 pmol/ml [544pg/mL]
+> [...]
+> The oxytocin levels appeared to be only partly related to the oestradiol level. It is possible that the stimulatory effect of oestradiol is antagonized by a concomitantly high progesterone level.
+
+In other words, if your E and P are high enough, this amplifies the oxytocin production. This fits with [another paper published in 2005](https://www.ncbi.nlm.nih.gov/pubmed/15664019) that found that women who were taking oral contraceptives experienced the opposite effect, with less oxytocin fluctuation across their cycles. Most oral contraceptives use synthetic progestins instead of bio-identical progesterone, which would not react the same way within the hypothalamus and pituitary glands, which is where oxytocin is produced. While the first paper I linked hypothesizes that this is caused by elevated LH, I believe that is a false correlation. It's far more likely that the two are independently elevated in response to GNRh signals from the hypothalamus, and that the oxytocin release is not affected by the gonadotropic feedback loop.
+
+Why is all this significant? Here's some of the things Oxytocin is responsible, taken [from wikipedia](https://en.wikipedia.org/wiki/Oxytocin):
+
+- Bonding and stimulation of maternal behavior
+- Increases of empathy towards members of a shared group and encourages generosity
+- Boosts social emotions, promoting trust and attachment while also increasing fallout from betrayal and envy.
+- Modulation of fear response and anxiety
+- **Acts as an anti-depressant, and deficits have been shown to cause depression.**
+
+That last piece is key. Elevated oxytocin levels during the ovulatory phase would significantly reduce dysphoric depression, where reduced levels in the first and last weeks of a cycle would increase dysphoric depression. The other aspects aren't dismissed either, however. Some trans women I've spoken to (as well as myself) have commented on feeling more socially confident around day 15.
+
+Here's another factoid from the wikipedia article that isn't exactly relevant, but I thought it interesting:
+
+> It has also been shown that testosterone directly suppresses oxytocin in mice. This has been hypothesized to have evolutionary significance. With oxytocin suppressed, activities such as hunting and attacking invaders would be less mentally difficult as oxytocin is strongly associated with empathy.
+
+What if the female brain needs oxytocin, and this is why having testosterone in our systems causes so much anguish, and starting HRT has such a significant impact on trans women? What if the male brain can't handle those levels of oxytocin, thus producing the same effect for trans men? This would seem to align with why many trans men experience extreme dysphoria during breast feeding, which triggers oxytocin surges.
+
+> It has been shown that oxytocin differentially affects males and females. Females who are administered oxytocin are overall faster in responding to socially relevant stimuli than males who received oxytocin. Additionally, after the administration of oxytocin, females show increased amygdala activity in response to threatening scenes; however, males do not
+
+Definitely food for thought.
