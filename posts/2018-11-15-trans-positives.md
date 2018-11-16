@@ -1,12 +1,14 @@
 ---
 title: "A few of my favorite things."
+description: "A list of the best gifts that my transition gave to me."
+image: "https://twipped.com/p/trans-positives/titlecard.png"
 ---
 
 The day that I resolved that I was going to transition, the thing that affected me the most was a post by another trans woman who had itemized all of her favorite gifts that her transition had given to her. Here I am, a year and a half in, and I realized I had yet to do the same thing, so in honor of Trans Awareness Week, here is a few of my favorite things.
 
 - I enjoy wine now! In the past I had always found it to be bitter and unpleasant, but now it has much more depth of flavor. This is no doubt connected to changes in my sense of smell. Odors that previously were barely noticeable are now powerfully strong. Food smells _amazing_, be it cooked meat, baked goods, pizza, everything. Chocolate took on a whole new depth, and just the smell of it makes my mouth water.
 
-- Emotions are so much stronger now. I used to just basically have three states: Amusement, Apathy, or Anger. It's like I stepped out of Dorothy's black and white house and set foot on the yellow brick road. I FEEL so much more than I used to, and there is such a diverse spectrum between the different states. I laugh harder, find joy easier, can cry at sorrow and grief, and feel so much more empathy for other people. Anger now feels more like a hot stove, where it used to be a raging house fire that ignited at a moment's notice.
+- Emotions are so much stronger now. I used to just basically have three states: Amusement, Apathy, or Anger. It's like I stepped out of Dorothy's black and white house and set foot on the yellow brick road. I FEEL so much more than I used to, and there is such a diverse spectrum between the different states. I laugh harder, find joy easier, can cry at sorrow and grief, and feel so much more empathy for other people. Anger used to be a raging house fire that ignited at a moment's notice, and now is more like a hot stove.
 
 - I have a stronger appreciation for beauty now, in nature, in people, and in man made objects. It triggers an emotional response at a much deeper level than it used to.
 
@@ -31,6 +33,8 @@ The day that I resolved that I was going to transition, the thing that affected 
 - Sex. Hahahahahaha, cis men have _no fucking idea what they're missing_. Not only is physical intimacy so much more meaningful than it used to be, even arousal is more colorful.  The female libido is like a baked brie delicately served over hot bread and jam with wine. The male libido felt like a wheel of sharp cheddar dropped on to the table with a beer stein and a big knife.
 
 - Boobs. Imagine being a teenage girl, waiting for puberty to start, waiting for your breasts to start growing... and it never happens. My brain knew they were supposed to be there, but they weren't, and it felt like missing a limb. I would look down and know that the view was wrong. Now my body finally feels whole.
+
+- Curves. I thoroughly enjoy being a curvy woman. I don't even know what more to say about that, it just feels so empowering.
 
 - Curly hair. I always looked after women with long curly hair with a powerful envy. Now I finally have it for myself! Yes, it can be a pain in the ass some times, but it's just such a delight! You, dear reader, might say "Well men can have long hair..." and you would be right. _Men_ can have long hair. A trans girl who has to hide who she is can't. It's blissful to be free of that limitation.
 
