@@ -18,7 +18,7 @@ Additionally, the use of "Trans Women" in the title and parts of this piece is a
 
 ### An introduction into the endocrine feedback system
 
-It all starts with the hypothalamus, the CEO of Endocrine Systems. The hypothalamus excretes [Gonadotropin-releasing hormone (GnRH)](https://en.wikipedia.org/wiki/Gonadotropin-releasing_hormone), a tropic peptide that regulates the entire process. GnRH is received by the pituitary gland, which then in turn releases two other hormones: [Leutinizing Hormone](https://en.wikipedia.org/wiki/Luteinizing_hormone) (LH) and [Follicle Stimulating Hormone](https://en.wikipedia.org/wiki/Follicle-stimulating_hormone) (FSH).
+It all starts with the hypothalamus, the CEO of Endocrine Systems. The hypothalamus excretes [Gonadotropin-releasing hormone (GnRH)](https://en.wikipedia.org/wiki/Gonadotropin-releasing_hormone), a tropic peptide that regulates the entire process. GnRH is received by the pituitary gland, which then in turn releases two other hormones: [Luteinizing Hormone](https://en.wikipedia.org/wiki/Luteinizing_hormone) (LH) and [Follicle Stimulating Hormone](https://en.wikipedia.org/wiki/Follicle-stimulating_hormone) (FSH).
 
 In people with testes, FSH supports the maturation of sperm, and in people with ovaries, FSH stimulates the maturation of ovarian follicles into gametes. As the follicles reach maturation, they start to excrete large amounts of estradiol, and this is what causes the first estradiol surge in a 28 day cycle. One or more follicles fully mature into a gamete and the rest spin down until next month.
 
