@@ -115,4 +115,10 @@ The real surprise, however, came nearing the end of the fourth week. My wife ind
 
 Three weeks and three days after surgery I suddenly found myself feeling _really_ good. My productivity was higher than normal, my mood had improved, I was thinking clearer... everything was coming up Jocelyn. It was like walking out from under a massive cloud system and suddenly feeling the light on my skin. The testosterone was gone, and the spiro with it; I felt alive, and it hasn't stopped feeling that way since. Today marks 5 weeks since the surgery, and my pain is pretty much gone (sometimes the left cord gets angry if I'm too active). Getting an orchiectomy has proven to be the best step in my transition that I've taken since I took that first pill.
 
+### Update: Six months post-op
+
+I cannot begin to express just how much an orchi has improved my own sense of self image and confidence with my body. This week I purchased my first swim suit bottom that does not have a skirt or any other mechanism of obscuring my crotch. After six months, my genitals have changed appearance so much that from most angles you cannot tell I still have a penis. It just looks like I've got an abnormally large clitoris and labia. Granted, a lot of that is because I'm fat and my FUPA obscures it all, but I don't care, I look like I have a vagina! My wife keeps commenting on how feminine my groin looks, she's thrilled by it. I'm no longer scared somebody might peek through a gap in a bathroom stall and see a protuberance.
+
+I still significantly want GRS some day, but my genital dysphoria has shifted to being more centered on just wanting the correct parts for my fulfillment, not because it could give me away as trans.
+
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

@@ -1,7 +1,7 @@
 ---
 title: "A few of my favorite things."
 description: "A list of the best gifts that my transition gave to me."
-image: "https://twipped.com/p/trans-positives/titlecard.png"
+image: "https://twipped.com/p/trans-positives/titlecard.jpg"
 ---
 
 The day that I resolved that I was going to transition, the thing that affected me the most was a post by another trans woman who had itemized all of her favorite gifts that her transition had given to her. Here I am, a year and a half in, and I realized I had yet to do the same thing, so in honor of Trans Awareness Week, here is a few of my favorite things.
