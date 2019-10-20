@@ -1,6 +1,7 @@
 ---
 title: "Boobs and Puberty"
 description: "Being trans is awesome, except when it isn't."
+canonical: https://curvyandtrans.com/p/4C6ED7/boobs-and-puberty/
 ---
 
 I know a lot of people have a complicated relationship with their breasts, so content warning: this post is about boobs, puberty, and gender dysphoria. This post is also written from the perspective of a woman, so apologies to any male or non-binary readers.

@@ -2,6 +2,7 @@
 title: "On cis female reactions to being labeled trans"
 description: "In which I refute the following statement"
 image: "https://twipped.com/p/transreaction/titlecard.png"
+canonical: https://curvyandtrans.com/p/CD3A09/transreaction/
 ---
 
 ![float:right](/p/transreaction/1.png)

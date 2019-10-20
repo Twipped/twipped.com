@@ -1,5 +1,6 @@
 ---
 title: "Identities and Masks: The deadnaming of Jarvis"
+canonical: https://curvyandtrans.com/p/44A20F/identities-and-masks/
 ---
 
 Alright, so, this started as a twitter thread and then I got to 40 tweets and decided it needed to be an essay instead.

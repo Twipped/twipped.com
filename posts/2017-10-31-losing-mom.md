@@ -1,5 +1,6 @@
 ---
 title: Losing my mother
+canonical: https://curvyandtrans.com/p/D9CFD0/losing-mom/
 ---
 
 By and large, the vast majority of the people I have come out to have been supportive and accepting. The one huge exception has been my own mother. From the first day she made it very clear that she disapproves of my transition and refuses to acknowledge my gender identity.

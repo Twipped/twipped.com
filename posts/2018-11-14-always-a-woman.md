@@ -1,5 +1,6 @@
 ---
 title: "I am a woman, and I have always been a woman"
+canonical: https://curvyandtrans.com/p/5403B2/always-a-woman/
 ---
 
 The following is a transcription of [a Twitter thread](https://twitter.com/i/moments/1017795260368367616) I wrote back in July in response to some lady that ended up being a sock puppet account.

@@ -1,5 +1,6 @@
 ---
 title: "Rage and Grace"
+canonical: https://curvyandtrans.com/p/7B173D/rage-and-grace/
 ---
 
 Tomorrow is my daughter's 5th birthday. The party is on Saturday, but for tomorrow we bought this big gold mylar 5 balloon and a few small toys to give her as introductory presents. We waited until we knew she was asleep and then went out to the garage and unpacked the helium tank. The tank filled remarkably fast and I accidentally over inflated the balloon.

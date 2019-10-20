@@ -1,5 +1,6 @@
 ---
 title: "A woman lost"
+canonical: https://curvyandtrans.com/p/9002B0/woman-lost/
 ---
 
 A Facebook friend who is a reverend asked for testimonials from LGBTQ members of the community that he could share to his congregation. The following is my contribution.

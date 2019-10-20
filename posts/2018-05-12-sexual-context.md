@@ -1,5 +1,6 @@
 ---
 title: "Come as You Are: Uncovering My Sexual Context"
+canonical: https://curvyandtrans.com/p/0D371F/sexual-context/
 ---
 
 I’m slowly but surely working my way through this book, [Come as You Are, by Emily Nagoski](https://smile.amazon.com/Come-You-Are-Surprising-Transform-ebook/dp/B00LD1ORBI/). The book is a guide on female sexuality, written for women who struggle with sexual intimacy. The purpose of the book is to teach women to understand their own motivations and mental barriers in order to have and enjoy better sex. The book is divided into four parts, and I just finished the first part.

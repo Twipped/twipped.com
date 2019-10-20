@@ -2,6 +2,7 @@
 title: "Cycle Dynamics: Why Trans Women Can Have Periods"
 description: "A dive into the endocrinology of the female hormone cycle."
 image: /p/cycle-dynamics/titlecard.jpg
+canonical: https://curvyandtrans.com/p/C4BD87/cycle-dynamics/
 ---
 
 ![I'll make my own menstrual cycle, with bloating and depression. In fact, forget the menstruation!](/p/cycle-dynamics/hero.jpg)

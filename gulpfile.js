@@ -154,7 +154,7 @@ function buildPostIndex () {
 			base = new gutil.File(file);
 		}
 
-		if (!file.meta.draft) {
+		if (!file.meta.draft || file.meta.ignore) {
 			posts.unshift(Object.assign({}, file.meta, {contents: String(file.contents)}));
 		}
 		next();

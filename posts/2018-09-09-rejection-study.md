@@ -1,5 +1,6 @@
 ---
 title: "Drilling into my Rejection Sensitive Dysphoria"
+canonical: https://curvyandtrans.com/p/0B1392/rejection-study/
 ---
 
 One of the things I learned about while researching my ADHD is a phenomenon that is highly co-morbid with ADHD, called [Rejection Sensitive Dysphoria](https://www.additudemag.com/rejection-sensitive-dysphoria-how-to-treat-it-alongside-adhd/). That link gives you the majority of the details, but the gist of RSD is that small accidents and events that would normally be completely ignorable cause the subject to become extremely agitated and depressive. For example, breaking a glass, or spilling a drink on the carpet, small events that should just be simple mistakes, turn into massive breakdowns.

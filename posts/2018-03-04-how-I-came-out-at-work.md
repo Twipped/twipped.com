@@ -1,5 +1,6 @@
 ---
 title: "How I Came Out at Work"
+canonical: https://curvyandtrans.com/p/8B7BD6/how-I-came-out-at-work/
 ---
 
 This is the story of how I came out at my workplace. Honestly, this is not a good example of how to do this, because it's **way over-draumatic**. If I were to do it again, I'm not sure I would have done it this way.

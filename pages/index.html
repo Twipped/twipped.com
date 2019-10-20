@@ -2,29 +2,18 @@
 
 	{{#content "article"}}
 
-	{{#with pinned}}
 		<article>
 			<div class="page-header">
 				<h2 class="post-title">
-					<a href="{{this.url}}">{{this.title}}</a>
-					<small class="post-date">{{date 'MMMM Do, YYYY' this.date}}</small>
+					<a>Pardon our Dust</a>
+					<small class="post-date">October 19th, 2019</small>
 				</h2>
 			</div>
-			<div class="post-content">{{{this.contents}}}</div>
-		</article>
-	{{/with}}
-
-	{{#with (first posts)}}
-		<article>
-			<div class="page-header">
-				<h2 class="post-title">
-					<a href="{{this.url}}">{{this.title}}</a>
-					<small class="post-date">{{date 'MMMM Do, YYYY' this.date}}</small>
-				</h2>
+			<div class="post-content">
+				<p>The majority of content on this blog has now been relocated to <a href="https://curvyandtrans.com">CurvyAndTrans.com</a></p>
+				<p>This space will eventually be an entirely new site for my professional pursuits... whenever I have time for that.</p>
 			</div>
-			<div class="post-content">{{{this.contents}}}</div>
 		</article>
-	{{/with}}
 	{{/content}}
 
 {{/extend}}

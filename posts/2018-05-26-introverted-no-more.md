@@ -1,5 +1,6 @@
 ---
 title: "Introverted No More"
+canonical: https://curvyandtrans.com/p/04FBD0/introverted-no-more/
 ---
 I had a realization the last few days. I am not an introvert.
 
