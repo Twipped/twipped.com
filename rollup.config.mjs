@@ -101,7 +101,7 @@ const plugins = [
   }),
   copy({
     targets: [
-      { src: 'static/**/*', dest: 'docs' },
+      { src: 'static/**/*', dest: 'dist' },
     ],
   }),
 
@@ -180,7 +180,7 @@ const config = {
   preserveEntrySignatures: false,
   output: [
     {
-      dir: 'docs',
+      dir: 'dist',
       format: 'esm',
       sourcemap: !PROD,
       entryFileNames: "[name]_[hash].js",
