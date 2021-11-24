@@ -1,0 +1,6 @@
+{
+  "data": "@import \"~/src/common.scss\";",
+  "includePaths": [
+    "node_modules"
+  ]
+}
