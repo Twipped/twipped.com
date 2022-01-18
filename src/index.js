@@ -49,7 +49,7 @@ const App = () => (
       />
       <Menu.Item
         title="npm"
-        href="https://www.npmjs.com/~chipersoft"
+        href="https://www.npmjs.com/~twipped"
         icon={<NPMIcon />}
         color="#CC3534"
       />
