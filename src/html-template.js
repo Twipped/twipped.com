@@ -41,15 +41,15 @@ export default function ({ attributes, bundle, meta, files, publicPath, ...rest 
     <meta name="author" content="Jocelyn Badgley">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta property="og:site_name" content="Twipped Media">
-    <meta name="twitter:site" content="Twipped Media">
-    <meta name="twitter:creator" content="Jocelyn Badgley">
     <meta property="og:title" content="Twipped Media">
     <meta property="og:description" content="Personal profile for Jocelyn Badgley">
     <meta property="og:image" content="https://twipped.com/images/twipped.png">
     <meta property="og:url" content="https://twipped.com/">
+    <meta name="twitter:site" content="TwippedTech">
+    <meta name="twitter:creator" content="Jocelyn Badgley">
     <meta name="twitter:title" content="Twipped Media">
     <meta name="twitter:description" content="Personal profile for Jocelyn Badgley">
-    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:card" content="summary">
     <meta name="twitter:image" content="https://twipped.com/images/twipped.png">
     <link rel="canonical" href="https://twipped.com/">
 
