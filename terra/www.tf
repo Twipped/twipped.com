@@ -70,6 +70,11 @@ resource "aws_cloudfront_distribution" "frontend" {
     Name  = "Frontend"
     Site  = var.site
   }
+
+  depends_on = [
+    aws_acm_certificate.cert,
+    aws_route53_record.cert_validation,
+  ]
 }
 
 # -----------------------------------------------------------------------------------------------------------

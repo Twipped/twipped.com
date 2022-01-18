@@ -110,6 +110,7 @@ resource "aws_acm_certificate" "cert" {
   subject_alternative_names = [
     "www.${var.domain}",
     "t.${var.domain}",
+    "lifespark.${var.domain}",
   ]
 
   tags = {
