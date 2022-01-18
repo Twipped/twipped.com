@@ -12,6 +12,7 @@ import KofiIcon from 'common/svgs/ko-fi-colored.svg';
 import PatreonIcon from 'common/svgs/patreon-circle.svg';
 import DiscordIcon from 'common/svgs/discord-circle.svg';
 import EmailIcon from 'common/svgs/envelope-circle.svg';
+import LinkedInIcon from 'common/svgs/linkedin.svg';
 
 const App = () => (
   <div>
@@ -21,6 +22,12 @@ const App = () => (
         href="/resume.html"
         icon={<ResumeIcon />}
         color="var(--bs-accent)"
+      />
+      <Menu.Item
+        title="LinkedIn"
+        href="https://www.linkedin.com/in/jocelyn-badgley/"
+        icon={<LinkedInIcon />}
+        color="#0a66c2"
       />
       <Menu.Item
         title="Email"
