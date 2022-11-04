@@ -99,6 +99,17 @@ resource "aws_route53_record" "dkim" {
   ]
 }
 
+resource "aws_route53_record" "azure_verification" {
+  zone_id = aws_route53_zone.zone.zone_id
+  name    = "_visual-studio-marketplace-twipped.twipped.com"
+  type    = "TXT"
+  ttl     = 300
+
+  records = [
+    "debbae10-6954-4e34-a075-10299b8fe751"
+  ]
+}
+
 
 # -----------------------------------------------------------------------------------------------------------
 # SSL Certificate
