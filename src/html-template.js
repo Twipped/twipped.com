@@ -3,7 +3,7 @@ const IGNORES = [
   'privacy',
 ];
 
-export default function ({ attributes, bundle, meta, files, publicPath, ...rest }) {
+export default function ({ attributes, bundle, meta, files, publicPath }) {
   // console.log({ attributes, meta, files, publicPath, rest }, files.xml, files.png);
 
   const links = (files.css || [])
@@ -29,7 +29,8 @@ export default function ({ attributes, bundle, meta, files, publicPath, ...rest 
     .map((input) => {
       const attrs = makeHtmlAttributes(input);
       return `<meta${attrs}>`;
-    });
+    })
+    .join('\n');
 
   return `
 <!DOCTYPE html>
@@ -51,6 +52,7 @@ export default function ({ attributes, bundle, meta, files, publicPath, ...rest 
     <meta name="twitter:description" content="Personal profile for Jocelyn Badgley">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:image" content="https://twipped.com/images/twipped.png">
+    ${metas}
     <link rel="canonical" href="https://twipped.com/">
 
     <title>Jocelyn Badgley - Twipped Media</title>

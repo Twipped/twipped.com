@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node ./dev-stack.mjs",
     "build": "rimraf dist && NODE_ENV=production rollup -c",
-    "lint": "eslint './src/**/*.{js,jsx}' --fix"
+    "lint": "eslint ."
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "alias": {
@@ -40,7 +40,7 @@
     "eslint-import-resolver-parcel": "~1.10.6",
     "eslint-plugin-import": "~2.25.3",
     "eslint-plugin-node": "~11.1.0",
-    "eslint-plugin-promise": "~5.1.1",
+    "eslint-plugin-promise": "~6.1.1",
     "eslint-plugin-react": "~7.27.1",
     "express": "~4.17.1",
     "express-http-proxy": "~1.6.3",
