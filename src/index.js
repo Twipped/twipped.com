@@ -13,6 +13,7 @@ import PatreonIcon from 'common/svgs/patreon-circle.svg';
 import DiscordIcon from 'common/svgs/discord-circle.svg';
 import EmailIcon from 'common/svgs/envelope-circle.svg';
 import LinkedInIcon from 'common/svgs/linkedin.svg';
+import MastodonIcon from 'common/svgs/mastodon.svg';
 
 const App = () => (
   <div>
@@ -58,6 +59,13 @@ const App = () => (
         href="https://www.twitter.com/TwippedTech"
         icon={<TwitterIcon />}
         color="#1DA1F2"
+      />
+      <Menu.Item
+        title="Fediverse"
+        href="https://twipped.social/@twipped"
+        icon={<MastodonIcon />}
+        color="#2b90d9"
+        rel="me"
       />
       <Menu.Item
         title="Facebook"
