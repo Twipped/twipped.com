@@ -110,6 +110,17 @@ resource "aws_route53_record" "azure_verification" {
   ]
 }
 
+resource "aws_route53_record" "bsky_verification" {
+  zone_id = aws_route53_zone.zone.zone_id
+  name    = "_atproto"
+  type    = "TXT"
+  ttl     = 300
+
+  records = [
+    "did=did:plc:nfv4szo7egmdhcx234oignuz"
+  ]
+}
+
 
 # -----------------------------------------------------------------------------------------------------------
 # SSL Certificate

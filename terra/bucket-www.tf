@@ -2,18 +2,29 @@
 # aws_s3_bucket.frontend
 resource "aws_s3_bucket" "frontend" {
   bucket = var.domain
-  acl    = "public-read"
 
   force_destroy = true
-
-  website {
-    index_document = "index.html"
-    error_document = "404.html"
-  }
 
   tags = {
     Name = "Frontend Assets"
     Site = var.site
+  }
+}
+
+resource "aws_s3_bucket_acl" "example_bucket_acl" {
+  bucket = aws_s3_bucket.frontend.id
+  acl    = "public-read"
+}
+
+resource "aws_s3_bucket_website_configuration" "example" {
+  bucket = aws_s3_bucket.frontend.bucket
+
+  index_document {
+    suffix = "index.html"
+  }
+
+  error_document {
+    key = "404.html"
   }
 }
 

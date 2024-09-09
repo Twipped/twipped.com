@@ -34,7 +34,7 @@ resource "aws_iam_role" "index_redirect_lambda" {
 
 data "archive_file" "index_redirect" {
   type        = "zip"
-  source_file = "${path.module}/index_redirect.js"
+  source_file = "${path.module}/index_redirect.mjs"
   output_path = ".terraform/tmp/lambda/index_redirect.zip"
 }
 
@@ -48,7 +48,7 @@ resource "aws_lambda_function" "index_redirect" {
   handler          = "index_redirect.handler"
   publish          = true
   role             = aws_iam_role.index_redirect_lambda.arn
-  runtime          = "nodejs12.x"
+  runtime          = "nodejs16.x"
 
   tags = {
     Name   = "${var.site}-index-redirect"
