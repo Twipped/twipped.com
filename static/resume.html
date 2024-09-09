@@ -119,12 +119,18 @@
 
 		}
 
-		#experience p + h2 {
+		.experience p + h2 {
 			margin-top: 18px;
 		}
 
-		#experience p {
-			line-height: 17px;
+		.experience p {
+			line-height: 1.5em;
+			padding-right: 2em;
+		}
+
+		.experience li {
+			margin: 0.5em 1em;
+			line-height: 1.5em;
 		}
 
 		dl {
@@ -164,12 +170,20 @@
 			font-weight:400;
 		}
 
+		.skill-tree li {
+			margin-bottom: 5px;
+		}
+
 		.skill-tree span {
 			text-align:right;
 			width:95px;
 			font-family: 'Open Sans', 'Helvetica Neue', Sans-Serif;
 			font-stretch: condensed;
 			font-size: 15px;
+		}
+
+		#contact-info .fn {
+			padding-right: 1ch;
 		}
 
 		#contact-info li {
@@ -221,19 +235,19 @@
 
 		<div id="contact-info" class="vcard">
 
-			<h1 class="fn"><em>Staff Software Engineer / Systems Architect</em>Jocelyn Badgley</h1>
+			<h1 class="fn"><em>Principal Software Engineer / Systems Architect</em>Jocelyn Badgley</h1>
 
 			<ul class="contact">
 				<li><label>Email:</label> <a class="email" href="mailto:joc@twipped.com">joc@twipped.com</a></li>
 				<li><label>Github:</label> <a class="github" href="https://github.com/twipped">http://github.com/twipped</a></li>
 				<li><label>Website:</label> <a class="website" href="https://twipped.com">http://twipped.com</a></li>
-				<li class="print-only"><label>Phone:</label> <span class="tel">858.400.8564</span></li>
+				<li class="print-only"><label>Phone:</label> <span class="tel">858.413.6831</span></li>
 		   </ul>
 		</div>
 
 		<div id="summary">
 			<p>
-				<strong>Full stack developer</strong> with <strong>over 25 years of experience</strong> developing software
+				<strong>Full stack developer</strong> with <strong>over 30 years of experience</strong> developing software
 				for the web. Able to take complex concepts and carry them through to execution autonomously with minimal oversight.
 				Capable of solving difficult problems with an attention to detail and future-forward planning. Strong background in
 				cloud based computing and high scalability.
@@ -245,103 +259,92 @@
 			<dd id="skills">
 				<h2>Previous work experience with the following technologies:</h2>
 				<ul class="skill-tree">
-					<li><strong>HTML5+ / JavaScript ES2021</strong></li>
+					<li><strong>JavaScript / TypeScript</strong></li>
 					<li><strong>NodeJS</strong></li>
 					<li><strong>LESS / SCSS</strong></li>
-					<li><strong>React + MobX</strong></li>
+					<li><strong>React + MobX + MUI</strong></li>
+					<li><strong>Webpack / Rollup</strong></li>
 					<li><strong>GraphQL / ApolloServer</strong></li>
 					<li><strong>MySQL / MariaDB / Amazon Aurora</strong></li>
 					<li><strong>Gremlin / Amazon Neptune</strong></li>
 					<li><strong>Redis / Amazon Elasticache</strong></li>
 					<li><strong>ElasticSearch</strong></li>
-          <li><strong>Neo4j / JanusGraph</strong></li>
-          <li><strong>RabbitMQ / Amazon SQS</strong></li>
+          <li><strong>RabbitMQ / Amazon SQS / BullMQ</strong></li>
 					<li><strong>Serverless Architecture / AWS Lambda</strong></li>
-					<li><strong>Terraform</strong></li>
+					<li><strong>Terraform / OpenTofu</strong></li>
 					<li><strong>Github CI / Gitlab CI / Circle CI</strong></li>
 				</ul>
 
 			</dd>
 
 			<dt>Recent Experience</dt>
-			<dd id="experience">
-				<h2>Voxtur Valuations<br><small>(formerly Clarocity)</small><em>Staff Systems Engineer - October 2013 to July 2015, September 2016 to Present</em></h2>
+			<dd class="experience">
+				<h2>
+					ZenBusiness<br>
+					<em>Principal Systems Engineer - February 2022 to Present</em>
+				</h2>
 				<p>
-					I was originally hired by the V2 development team in 2013 to help with application scaling and architectural concerns as the
-					company's product demands increased.  Within the company I served as a driving force in migrating to newer technologies and
-					teaching more maintainable development techniques. I pioneered a transition to a Git based feature branching workflow,
-					and using Vagrant and Chef to ensure consistency across all environments.
-				</p>
-				<p>
-					After leaving for a year to pursue an opportunity with Shutterstock, I returned to V2 to take on a role as a skunkworks
-					developer, orchestrating large software systems with numerous moving parts designed to solve complex problems. Some of
-					the projects I created for Voxtur:
-				</p>
-				<ul>
-					<li>
-						The <strong>EventWorks Automation Engine</strong>, a real time react and response system which processes events
-						dispatched from within the V2 order management system and performs actions based on administrator rules. The system
-						responds to events both at time of occurrence, or scheduled for future checkup, such as checking to ensure an agent
-						completed an order on time.
-					</li>
-					<li>
-						The V2 <strong>Order Management Pipeline</strong>, a highly scalable data monitoring system which tracks order state and
-						moves orders into separate tabbed statuses in realtime via a websocket driven front-end. Filter and sorting criteria
-						could be created by the user on the front-end, creating custom experiences for each administrator's needs.
-					</li>
-					<li>
-						<strong>Voxtur Teams Management</strong> (internally known as Pachinko), an automatic user allocation system which assigns order administrators and Quality Assurance personnel as valuation products move through the various stages of workflow.
-					</li>
-					<li>
-						<strong>Voxtur Auto-QC</strong>, a multi-tiered state machine engine for processing XML data received from appraisers
-						and inspectors working in the field. This system was built for maximum flexibility in quality testing, able to
-						evaluate numerous conditions at once and report errors according to industry rules and regulations. AQC was managed through
-						a React based frontend with designed to rule management as intuitive as possible.
-					</li>
-				</ul>
-				<p>
-					I have valued my time with Voxtur/Clarocity immensely for the autonomy and freedom that I was granted in my role, both in the
-					selection of technologies and in the creation of new technologies to solve problems within the company. I would not be
-					the developer I am today were it not for the eight years I served there.
+					Served a role of facilitation and tech-debt recovery, constructing a new code platform for building out React based
+					applications so that teams could quickly spin up new features without affecting other part of the ecosystem
 				</p>
 
+				<p>
+					Assembled a comprehensive collection of internal libraries to enable context sharing across multiple applications,
+					improving both the user and developer experience, while encouraging better testing practices and more resilient error
+					handling.
+				</p>
+				<p>
+					Successfully dismantled the main dashboard monolith into a collection of federated micro-frontends divided along domains
+					within the company, allowing teams to iterate faster and experience fewer road blocks to releasing new code.
+				</p>
 			</dd>
-			<dd>
-				<h2>Shutterstock <em>Software Engineer - July 2015 to September 2016</em></h2>
+			<dd class="experience">
+				<h2>
+					Voxtur Valuations<br><small>(formerly Clarocity)</small>
+					<em>Staff Systems Engineer - October 2013 to July 2015, September 2016 to February 2022</em>
+				</h2>
 				<p>
-					Fullstack developer on the content operations team, maintained the internal applications used to review new
-					content submitted for sale and manage existing content in Shutterstock's library of stock images and video.
-					This involved front-end JS development in Backbone and React front-ends built on top of a Service Oriented
-					Architecture of NodeJS and MySQL.
+					Originally hired by the Valuation Vision (later Clarocity, now Voxtur) development team in 2013 to help with application
+					scaling and architectural concerns as the company's product demands increased. Served as a driving force in migrating to
+					newer technologies and teaching more maintainable development techniques, pioneering a transition to a Git based feature
+					branching workflow, and using Vagrant and Chef to ensure consistency across all environments.
 				</p>
 				<p>
-					While working at Shutterstock I built and launched three new API services, two RabbitMQ workers, created a
-					MySQL database library that is now used by four different teams, constructed a Selenium driven mid-level
-					integration	test suite, and helped to maintain two NodeJS powered web apps.
+					Returned to Clarocity in 2016 -- after leaving for a year to pursue an opportunity with Shutterstock -- to take on a
+					role as a skunk works developer, orchestrating large software systems designed to solve complex problems and improve
+					efficiency, such as a real-time react & response workflows, an automated quality control engine, and automatic agent
+					assignment.
 				</p>
-
 			</dd>
 			<dt class="btf">Extended Experience</dt>
-			<dd class="btf">
-				<h2>Synacor, Inc <em>Senior Frontend Engineer, Project Lead - January 2013 to October 2013</em></h2>
+			<dd class="btf experience">
+				<h2>Shutterstock <em>Software Engineer - July 2015 to September 2016</em></h2>
 				<p>
-					Responsible for developing new features on Synacor's TV Everywhere media portal product. This primarily
-					consisted of the creation of new JavaScript libraries and JS driven front-end components used to make up page
-					layouts, as well as the creation of HTML templates and CSS styling to shape those elements.
+					Full-stack developer on the content operations team, maintaining the internal applications used to review new content
+					submitted for sale, and manage existing content in Shutterstock's library of stock images and video. This involved
+					front-end JS development in Backbone and React front-ends built on top of a Service Oriented Architecture of NodeJS and
+					MySQL.
 				</p>
 				<p>
-					When I departed Synacor I was serving as a team leader on the version three total rewrite of the TV product,
-					built on a Java backend using Service Oriented Architecture. I created the front-end framework for loading
-					Backbone Views dynamically using hooks in the HTML, and a Grunt driven LESS compile process for selectively
-					aggregating component css.
-				</p>
-				<p>
-					This position was fully remote from my home in San Diego, communicating with my team members in Buffalo, New
-					York via company chat and Skype.  Synacor has a strong unit testing policy (PHPUnit, Jasmine and QUnit) and
-					uses Agile project management.
+					Built and launched three new API services, two RabbitMQ workers, created a MySQL database library that used across the
+					company, co-engineered a Selenium driven UX integration test suite, and helped to maintain multiple NodeJS powered web
+					apps.
 				</p>
 			</dd>
-			<dd class="btf">
+			<dd class="btf experience">
+				<h2>Synacor, Inc <em>Senior Frontend Engineer, Project Lead - January 2013 to October 2013</em></h2>
+				<p>
+					Responsible for developing new features on Synacor's TV Everywhere media portal product. This primarily consisted of the
+					creation of new JavaScript libraries and JS driven front-end components used to make up page layouts, as well as the
+					creation of HTML templates and CSS styling to shape those elements.
+				</p>
+				<p>
+					Served as a team leader on the v3 rewrite of the TV product, built on a Java backend using Service Oriented
+					Architecture. I created the front-end framework for loading Backbone Views dynamically using hooks in the HTML, and a
+					Grunt driven LESS compile process for selectively aggregating component CSS.
+				</p>
+			</dd>
+			<dd class="btf experience">
 				<h2>NFY Interactive, inc. <em>Senior Web Developer - 2008 to 2012</em></h2>
 				<p>
 					Solely built and deployed nearly two dozen custom CMS applications for third party clients.
@@ -350,7 +353,8 @@
 					Javascript to drive dynamic elements on the site.
 				</p>
 			</dd>
-			<dd class="btf">
+			<!--
+			<dd class="btf experience">
 				<h2>Abtech Systems <em>Systems Technician - Carlsbad, CA - 2007 to 2008</em></h2>
 				<ul>
 					<li>Built, refurbished, configured and troubleshot HP &amp; Compaq Servers and Workstations running both Microsoft Windows and HP-UX Unix. </li>
@@ -364,7 +368,7 @@
 					by 30%.
 				</p>
 			</dd>
-			<dd class="btf">
+			<dd class="btf experience">
 				<h2>WebOS.com<em> Front-end Developer- Columbia, MD - 2000 to 2001</em></h2>
 				<p>
 					Telecommuting from my home in San Diego, I worked with a team of programmers based out of Maryland to design a JavaScript
@@ -372,7 +376,7 @@
 					the foundations of techniques and systems employed in Google's earliest applications and in the Palm/HP webOS.  We were doing
 					AJAX six years before the term existed.
 				</p>
-      </dd>
+      </dd> -->
 
     </dl>
 
