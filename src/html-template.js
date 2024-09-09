@@ -102,6 +102,7 @@ export default function ({ attributes, bundle, meta, files, publicPath }) {
 
       gtag('config', 'UA-4767790-12');
     </script>
+    <a rel="me" href="https://twipped.social/@twipped"></a>
   </body>
 </html>
   `;
