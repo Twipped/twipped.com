@@ -4,9 +4,11 @@
   "description": "",
   "source": "src/index.html",
   "type": "module",
+  "private": "true",
   "scripts": {
     "start": "node ./dev-stack.mjs",
     "build": "rimraf dist && NODE_ENV=production rollup -c",
+    "deploy": "s3-deployer",
     "lint": "eslint ."
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
@@ -16,6 +18,7 @@
   "author": "Jocelyn Badgley <joc@twipped.com> (http://twipped.com/)",
   "license": "MIT",
   "devDependencies": {
+    "@ahlec/s3-deployer": "^1.0.1",
     "@babel/cli": "~7.16.0",
     "@babel/core": "~7.16.0",
     "@babel/eslint-parser": "~7.16.0",
@@ -69,5 +72,29 @@
     "react": "~17.0.2",
     "react-dom": "~17.0.2",
     "rimraf": "~3.0.2"
+  },
+  "s3deployer": {
+    "assets": {
+      "**/*.{png,jpe?g,gif,svg,html}": {
+        "contentType": "image/png",
+        "cacheControl": "max-age=86400, s-maxage=2592000"
+      },
+      "**/*.{js,css}": {
+        "cacheControl": "max-age=86400, s-maxage=2592000"
+      },
+      "**/*.{xml,json}": {
+        "cacheControl": "max-age=3600, s-maxage=86400"
+      },
+      "**/.DS_Store": false
+    },
+    "bucket": {
+      "name": "twipped.com",
+      "region": "us-east-1"
+    },
+    "buildDir": "./dist",
+    "cloudfront": {
+      "id": "E6KTDXQ5Y6G9D",
+      "region": "us-east-1"
+    }
   }
 }
