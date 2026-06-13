@@ -42,10 +42,9 @@ resource "aws_cloudfront_distribution" "frontend" {
       }
     }
 
-    lambda_function_association {
-      event_type   = "origin-request"
-      lambda_arn   = module.index_redirect.arn
-      include_body = false
+    function_association {
+      event_type   = "viewer-request"
+      function_arn = aws_cloudfront_function.frontend-redirect-index.arn
     }
 
     viewer_protocol_policy = "redirect-to-https"
@@ -70,6 +69,13 @@ resource "aws_cloudfront_distribution" "frontend" {
     Name  = "Frontend"
     Site  = var.site
   }
+}
+
+resource "aws_cloudfront_function" "frontend-redirect-index" {
+  name    = "${var.site}-cff-redirect-index"
+  runtime = "cloudfront-js-2.0"
+  publish = true
+  code    = file("${path.module}/www-cff.js")
 }
 
 # -----------------------------------------------------------------------------------------------------------
