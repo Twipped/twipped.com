@@ -7,7 +7,6 @@
   "private": "true",
   "scripts": {
     "start": "node ./dev-stack.mjs",
-    "build": "rimraf dist && NODE_ENV=production rollup -c",
     "deploy": "s3-deployer",
     "lint": "eslint ."
   },
@@ -19,14 +18,12 @@
   "license": "MIT",
   "devDependencies": {
     "@ahlec/s3-deployer": "^2.0.0",
-    "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "express-http-proxy": "^2.1.2",
     "express-static": "~1.2.6",
-    "sass": "^1.101.0"
+    "rimraf": "^6.1.3"
   },
   "dependencies": {
-    "rimraf": "^6.1.3"
   },
   "s3deployer": {
     "assets": {
