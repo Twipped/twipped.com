@@ -1,0 +1,269 @@
+:root {
+  --html-font-size: clamp(10px, 2.5vw, 16px);
+
+  --breakpoint-xs: 0px;
+  --breakpoint-sm: 600px;
+  --breakpoint-md: 900px;
+  --breakpoint-lg: 1200px;
+  --breakpoint-xl: 1536px;
+
+  --primary-main: #0190F8;
+  --primary-light: color-mix(in oklab, var(--primary-main), light-dark(white, black) var(--variant-shade-opacity));
+  --primary-dark: color-mix(in oklab, var(--primary-main), light-dark(black, white) var(--variant-shade-opacity));
+  --primary-contrast: light-dark(rgba(255, 255, 255, 1), rgba(0, 0, 0, 0.87));
+
+  --secondary-main: #d600c1;
+  --secondary-light: color-mix(in oklab, var(--secondary-main), light-dark(white, black) var(--variant-shade-opacity));
+  --secondary-dark: color-mix(in oklab, var(--secondary-main), light-dark(black, white) var(--variant-shade-opacity));
+  --secondary-contrast: light-dark(rgba(255, 255, 255, 1), rgba(0, 0, 0, 0.87));
+
+  --success-main: #20BA72;
+  --success-light: color-mix(in oklab, var(--success-main), light-dark(white, black) var(--variant-shade-opacity));
+  --success-dark: color-mix(in oklab, var(--success-main), light-dark(black, white) var(--variant-shade-opacity));
+  --success-contrast: light-dark(rgba(255, 255, 255, 1), rgba(0, 0, 0, 0.87));
+
+  --info-main: hsl(201, 98%, 40%);
+  --info-light: color-mix(in oklab, var(--info-main), light-dark(white, black) var(--variant-shade-opacity));
+  --info-dark: color-mix(in oklab, var(--info-main), light-dark(black, white) var(--variant-shade-opacity));
+  --info-contrast: light-dark(rgba(255, 255, 255, 1), rgba(0, 0, 0, 0.87));
+
+  --warning-main: hsl(48, 100%, 44%);
+  --warning-light: color-mix(in oklab, var(--warning-main), light-dark(white, black) var(--variant-shade-opacity));
+  --warning-dark: color-mix(in oklab, var(--warning-main), light-dark(black, white) var(--variant-shade-opacity));
+  --warning-contrast: light-dark(rgba(255, 255, 255, 1), rgba(0, 0, 0, 0.87));
+
+  --danger-main: hsl(355, 98%, 66%);
+  --danger-light: color-mix(in oklab, var(--danger-main), light-dark(white, black) var(--variant-shade-opacity));
+  --danger-dark: color-mix(in oklab, var(--danger-main), light-dark(black, white) var(--variant-shade-opacity));
+  --danger-extra-dark: color-mix(in oklab, var(--danger-main), light-dark(black, white) 40%);
+  --danger-contrast: light-dark(rgba(255, 255, 255, 1), rgba(0, 0, 0, 0.87));
+
+  --gray-000: #f8f9fa;
+  --gray-050: #eff0f2;
+  --gray-100: #e5e8ea;
+  --gray-150: #d3d7db;
+  --gray-200: #c9ced4;
+  --gray-250: #b6bdc5;
+  --gray-300: #adb5bd;
+  --gray-350: #a4adb5;
+  --gray-400: #919ca6;
+  --gray-450: #7e8b97;
+  --gray-500: #758290;
+  --gray-550: #65717d;
+  --gray-600: #5d6974;
+  --gray-650: #4e5861;
+  --gray-700: #474f58;
+  --gray-750: #373e45;
+  --gray-800: #30363b;
+  --gray-850: #212529;
+  --gray-900: #191c1f;
+  --gray-950: #0a0b0c;
+  --gray-999: #020303;
+
+  --divider-color: light-dark(rgba(0, 0, 0, 0.12), rgba(255, 255, 255, 0.12));
+
+  --background-default: light-dark(var(--grey-050), var(--grey-900));
+  --background-paper: light-dark(#fff, #121212);
+
+  --alpha-black-050: rgb(from black r g b / 02%);
+  --alpha-black-100: rgb(from black r g b / 10%);
+  --alpha-black-200: rgb(from black r g b / 18%);
+  --alpha-black-300: rgb(from black r g b / 24%);
+  --alpha-black-400: rgb(from black r g b / 42%);
+  --alpha-black-500: rgb(from black r g b / 56%);
+  --alpha-black-600: rgb(from black r g b / 67%);
+  --alpha-black-700: rgb(from black r g b / 74%);
+  --alpha-black-800: rgb(from black r g b / 82%);
+  --alpha-black-900: rgb(from black r g b / 88%);
+  --alpha-black-950: rgb(from black r g b / 93%);
+
+  --alpha-white-050: rgb(from white r g b / 02%);
+  --alpha-white-100: rgb(from white r g b / 10%);
+  --alpha-white-200: rgb(from white r g b / 18%);
+  --alpha-white-300: rgb(from white r g b / 24%);
+  --alpha-white-400: rgb(from white r g b / 42%);
+  --alpha-white-500: rgb(from white r g b / 56%);
+  --alpha-white-600: rgb(from white r g b / 67%);
+  --alpha-white-700: rgb(from white r g b / 74%);
+  --alpha-white-800: rgb(from white r g b / 82%);
+  --alpha-white-900: rgb(from white r g b / 88%);
+  --alpha-white-950: rgb(from white r g b / 93%);
+
+  --font-family-sans-serif:  "Open Sans", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-serif:       Georgia, 'Times New Roman', Times, Times, serif;
+  --font-family-heading:     "Roboto Condensed", Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-family-primary: var(--font-family-sans-serif);
+
+  --font-weight-thin: 100;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --font-weight-heavy: 900;
+
+  --font-size-xs: 0.55rem;
+  --font-size-sm: 0.8rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+  @media only screen and (width >= 1200px /* breakpoint-lg */) {
+    --font-size-2xl: 2rem;
+    --font-size-3xl: 2.5rem;
+    --font-size-4xl: 3rem;
+    --font-size-5xl: 4rem;
+  }
+
+  --text-color-primary: light-dark(rgba(0, 0, 0, 0.87), rgba(245, 245, 245, 1));
+  --text-color-secondary: light-dark(rgba(0, 0, 0, 0.6), rgba(245, 245, 245, 0.5));
+  --text-color-disabled: light-dark(rgba(0, 0, 0, 0.38), rgba(245, 245, 245, 0.5));
+  --text-color-icon: light-dark(rgba(0, 0, 0, 0.5), rgba(245, 245, 245, 0.5));
+  --text-color-success: var(--success-main);
+  --text-color-info: var(--info-main);
+  --text-color-warning: var(--warning-main);
+  --text-color-danger: var(--danger-main);
+  --text-color-muted: var(--grey-600);
+
+  --spacing: 8px;
+  --spacing-half: calc(var(--spacing) * 0.5);
+  --spacing-2: calc(var(--spacing) * 2);
+  --spacing-3: calc(var(--spacing) * 3);
+  --spacing-4: calc(var(--spacing) * 4);
+}
+
+
+html {
+  font-size: var(--html-font-size);
+  font-family: sans-serif;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: none;
+  -webkit-font-smoothing: 'antialiased';
+  -moz-osx-font-smoothing: 'grayscale';
+  box-sizing: 'border-box';
+}
+
+*, *::before, *::after {
+  box-sizing: 'inherit';
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body, h1, h2, h3, h4, p, figure, blockquote, dl, dd {
+  margin-block: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  font-family: var(--font-family-primary);
+  font-weight: var(--font-weight-regular);
+  font-size: inherit;
+  line-height: 1.5;
+  margin: 0;
+  color: var(--text-color-primary);
+  background-color: var(--background-default);
+  @media print {
+    background-color: white;
+  }
+  &::backdrop {
+    background-color: var(--background-default);
+  }
+}
+
+strong, b {
+  font-weight: var(--font-weight-bold);
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+input,
+label {
+  line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+h1 { font-size: var(--font-size-4xl); font-weight: var(--font-weight-light); }
+h2 { font-size: var(--font-size-3xl); font-weight: var(--font-weight-light); }
+h3 { font-size: var(--font-size-2xl); font-weight: var(--font-weight-regular); }
+h4 { font-size: var(--font-size-xl); font-weight: var(--font-weight-bold); }
+h5 { font-size: var(--font-size-lg); font-weight: var(--font-weight-bold); }
+h6 { font-size: var(--font-size-md); font-weight: var(--font-weight-medium); }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-family-secondary);
+}
+
+h5,
+h6 {
+  font-family: var(--font-family-primary);
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
+}
