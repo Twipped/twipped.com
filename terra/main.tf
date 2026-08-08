@@ -67,12 +67,20 @@ resource "aws_route53_record" "mail_exchange" {
   ttl     = 86400
 
   records = [
-    "1 ASPMX.L.GOOGLE.COM",
-    "5 ALT1.ASPMX.L.GOOGLE.COM",
-    "5 ALT2.ASPMX.L.GOOGLE.COM",
-    "10 ALT3.ASPMX.L.GOOGLE.COM",
-    "10 ALT4.ASPMX.L.GOOGLE.COM",
+    "10 in1-smtp.messagingengine.com",
+    "20 in2-smtp.messagingengine.com"
   ]
+}
+
+resource "aws_route53_record" "twipped-wildcard-mx" {
+  zone_id = aws_route53_zone.zone.id
+  name    = "*.twipped.com"
+  type    = "MX"
+  records = [
+    "10 in1-smtp.messagingengine.com",
+    "20 in2-smtp.messagingengine.com"
+  ]
+  ttl     = 300
 }
 
 # aws_route53_record.google_mail_secure
@@ -83,9 +91,62 @@ resource "aws_route53_record" "google_mail_secure" {
   ttl     = 86400
 
   records = [
-    "v=spf1 include:_spf.google.com ~all"
+    "v=spf1 include:spf.messagingengine.com ?all"
   ]
 }
+
+
+resource "aws_route53_record" "twipped-txt" {
+  zone_id = aws_route53_zone.zone.id
+  name    = "twipped.com"
+  type    = "TXT"
+  records = [
+    "v=spf1 include:spf.messagingengine.com ?all"
+  ]
+  ttl     = 300
+}
+
+resource "aws_route53_record" "twipped-cname-mesmtp__domainkey" {
+  zone_id = aws_route53_zone.zone.id
+  name    = "mesmtp._domainkey.twipped.com"
+  type    = "CNAME"
+  records = ["mesmtp.twipped.com.dkim.fmhosted.com"]
+  ttl     = 3600
+}
+
+resource "aws_route53_record" "twipped-cname-fm1__domainkey" {
+  zone_id = aws_route53_zone.zone.id
+  name    = "fm1._domainkey.twipped.com"
+  type    = "CNAME"
+  records = ["fm1.twipped.com.dkim.fmhosted.com"]
+  ttl     = 3600
+}
+
+resource "aws_route53_record" "twipped-cname-fm2__domainkey" {
+  zone_id = aws_route53_zone.zone.id
+  name    = "fm2._domainkey.twipped.com"
+  records = ["fm2.twipped.com.dkim.fmhosted.com"]
+  ttl     = 300
+  type    = "CNAME"
+}
+
+resource "aws_route53_record" "twipped-cname-fm3__domainkey" {
+  zone_id = aws_route53_zone.zone.id
+  name    = "fm3._domainkey.twipped.com"
+  type    = "CNAME"
+  records = ["fm3.twipped.com.dkim.fmhosted.com"]
+  ttl     = 300
+}
+
+
+resource "aws_route53_record" "twipped-txt-dmarc" {
+  zone_id = aws_route53_zone.zone.id
+  name    = "_dmarc.twipped.com"
+  type    = "TXT"
+  records = ["v=DMARC1; p=none;"]
+  ttl     = 300
+}
+
 
 # aws_route53_record.dkim
 resource "aws_route53_record" "dkim" {
