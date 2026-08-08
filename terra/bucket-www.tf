@@ -33,39 +33,39 @@ resource "aws_s3_bucket_website_configuration" "example" {
 # Site Assets
 
 
-data "external" "frontend_hash" {
-  program = [ "bash", "${path.module}/hash.sh", "${path.module}/../dist" ]
-}
+# data "external" "frontend_hash" {
+#   program = [ "bash", "${path.module}/hash.sh", "${path.module}/../dist" ]
+# }
 
-resource "null_resource" "synchronize_frontend_3s" {
+# resource "null_resource" "synchronize_frontend_3s" {
 
-  triggers = {
-    script_hash = data.external.frontend_hash.result["hash"]
-  }
+#   triggers = {
+#     script_hash = data.external.frontend_hash.result["hash"]
+#   }
 
-  provisioner "local-exec" {
-    command = "aws s3 sync --acl public-read ${path.module}/../dist s3://${aws_s3_bucket.frontend.id}"
-  }
-}
-
-
-# -----------------------------------------------------------------------------------------------------------
-# Invalidate
+#   provisioner "local-exec" {
+#     command = "aws s3 sync --acl public-read ${path.module}/../dist s3://${aws_s3_bucket.frontend.id}"
+#   }
+# }
 
 
-resource "null_resource" "invalidate_cloudfront" {
+# # -----------------------------------------------------------------------------------------------------------
+# # Invalidate
 
-  triggers = {
-    script_hash = data.external.frontend_hash.result["hash"]
-  }
 
-  provisioner "local-exec" {
-    command = "aws cloudfront create-invalidation --distribution-id ${aws_cloudfront_distribution.frontend.id} --paths \"/\""
-  }
+# resource "null_resource" "invalidate_cloudfront" {
 
-  depends_on = [
-    null_resource.synchronize_frontend_3s,
-    aws_cloudfront_distribution.frontend,
-  ]
-}
+#   triggers = {
+#     script_hash = data.external.frontend_hash.result["hash"]
+#   }
+
+#   provisioner "local-exec" {
+#     command = "aws cloudfront create-invalidation --distribution-id ${aws_cloudfront_distribution.frontend.id} --paths \"/\""
+#   }
+
+#   depends_on = [
+#     null_resource.synchronize_frontend_3s,
+#     aws_cloudfront_distribution.frontend,
+#   ]
+# }
 
